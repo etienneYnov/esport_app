@@ -7,12 +7,36 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Quizz_Q2</ion-title>
+    <ion-title>Question 2</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+<ion-card>
+		<ion-card-header>
+			Question 2
+		</ion-card-header>
+		<ion-card-content>
+			Quelle est la commande servant à afficher les fps, le ping et le var en jeu ?
+		</ion-card-content>
+	</ion-card>
 
+	<ion-list radio-group no-lines padding>
+		<ion-item >
+			<ion-radio value=”A” ></ion-radio>
+			<ion-label>A – Net_graph 1</ion-label>
+		</ion-item>
+		<ion-item>
+			<ion-radio value=”B”> </ion-radio>
+			<ion-label>B – Sv_showimpacts 1</ion-label>
+		</ion-item>
+		<ion-item >
+			<ion-radio value=”C” ></ion-radio>
+			<ion-label>C – Sv_cheats 1</ion-label>
+		</ion-item>
+	</ion-list>
+
+	<button ion-button  float-right (click)=goQ3()>SUIVANT</button>
 </ion-content>

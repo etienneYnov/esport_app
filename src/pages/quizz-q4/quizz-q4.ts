@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AreaPage } from '../pages/area/area';
 
 /**
  * Generated class for the QuizzQ4Page page.
@@ -18,6 +19,10 @@ export class QuizzQ4Page {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  goArea(){
+  	this.navCtrl.push('AreaPage');
+  }
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad QuizzQ4Page');
   }
