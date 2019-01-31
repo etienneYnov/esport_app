@@ -1,6 +1,6 @@
 page-scores {
 	.bg-style {
-	    background-image: url('../assets/imgs/background.jpg');
+	    background-image: url('../assets/imgs/background2.jpg');
         width: 100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -10,6 +10,13 @@ page-scores {
 		color: yellow;
 		font-size: 3rem;
 		text-align: center;
+		background-color: transparent;
+	}
+	img {
+		margin: auto;
+	    display: block;
+	    width: auto;
+	    height: auto;
 	}
 	
 }

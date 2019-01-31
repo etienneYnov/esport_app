@@ -13,34 +13,97 @@
 </ion-header>
 
 
-<ion-content padding class="bg-style">
+<!-- <ion-content padding class="bg-style">
 	<ion-card class="transp">
 		<ion-card-header class="transp">
 			Question 1
 		</ion-card-header>
-		<ion-card-content>
+		<ion-card-content class="transp2">
 			Quel est le temps officiel de détonation de la bombe utilisée en tournoi ?
 		</ion-card-content>
-	<img src='../assets/imgs/Q1.jpg'>
+	<img class="qimg" src='../assets/imgs/Q1.jpg'>
 	</ion-card>
 	<ion-list radio-group no-lines padding class="transp">
+	<ion-row>
 		<ion-item class="transp" >
 			<ion-radio value=”A” ></ion-radio>
-			<ion-label><img src='../assets/imgs/Bouton-1.png'></ion-label>
-			
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-1.png'></ion-label>			
 		</ion-item>
 		<ion-item class="transp">
 			<ion-radio value=”B”> </ion-radio>
-			<ion-label><img src='../assets/imgs/Bouton-2.png'></ion-label>
-			
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-2.png'></ion-label>			
 		</ion-item>
 		<ion-item class="transp" >
 			<ion-radio value=”C” ></ion-radio>
-			<ion-label><img src='../assets/imgs/Bouton-3.png'></ion-label>
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-3.png'></ion-label>
 		</ion-item>
+	</ion-row>
 	</ion-list>
 
 	<button ion-button block (click)=goQuizz2()>SUIVANT</button>
 
-</ion-content>
+</ion-content> -->
 
+<ion-content padding class="bg-style">
+
+<!-- <div><h1>Question 1</h1></div>
+<div><h2>Quelle équipe sera vainqueur du round 1 ?</h2></div>
+<div>
+	<ion-row>
+	<ion-list radio-group no-lines padding class="transp">
+		<ion-item class="transp" >
+			<ion-radio value=”A” ></ion-radio>
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-1.png'></ion-label>			
+		</ion-item>
+		<ion-item class="transp">
+			<ion-radio value=”B”> </ion-radio>
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-2.png'></ion-label>			
+		</ion-item>
+		<ion-item class="transp" >
+			<ion-radio value=”C” ></ion-radio>
+			<ion-label><img class="rond" src='../assets/imgs/Bouton-3.png'></ion-label>
+		</ion-item>	
+	</ion-list>
+	</ion-row>
+</div> -->
+
+
+
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+        <p class="txt-style">Question 1</p>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+  	<ion-col>
+      <div>
+        <p class="txt-style">Quelle équipe sera vainqueur du round 1 ?</p>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz2() class="rond" src='../assets/imgs/Bouton-1.png'>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz2() class="rond" src='../assets/imgs/Bouton-2.png'>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz2() class="rond" src='../assets/imgs/Bouton-3.png'>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
+</ion-content>

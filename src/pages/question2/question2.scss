@@ -1,15 +1,39 @@
 page-question2 {
 	.bg-style {
-	    background-image: url('../assets/imgs/background.jpg');
+	    background-image: url('../assets/imgs/background2.jpg');
         width: 100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center center;
 	}
-	img{
-	  height: 70vh;
+	.qimg {
+	  height: 25%;
 	  width: auto;
 	  margin: auto;
 	  display: block;
+	}
+	.rond {
+	  height: auto;
+	  width: auto;
+	  margin: auto;
+	  display: line;
+	}
+	.transp {
+		background-color: transparent;
+		color: white;
+		font-size: 3rem;
+		text-align: center;
+	}
+	.transp2 {
+		background-color: transparent;
+		color: white;
+		font-size: 3rem;
+		text-align: center;
+	}
+	.txt-style{
+		color: white;
+		font-size: 4rem;
+		text-align: center;
+		font-weight: bold;
 	}
 }

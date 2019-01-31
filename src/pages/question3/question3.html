@@ -14,7 +14,7 @@
 
 
 <ion-content padding  class="bg-style">
-	<ion-card>
+<!-- 	<ion-card>
 		<ion-card-header>
 			Question 3
 		</ion-card-header>
@@ -38,5 +38,39 @@
 		</ion-item>
 	</ion-list>
 
-	<button ion-button  float-right (click)=goQuizz4()>SUIVANT</button>
+	<button ion-button  float-right (click)=goQuizz4()>SUIVANT</button> -->
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+        <p class="txt-style">Question 3</p>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+  	<ion-col>
+      <div>
+        <p class="txt-style">Quelle équipe sera vainqueur du round 3 ?</p>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz4() class="rond" src='../assets/imgs/Bouton-1.png'>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz4() class="rond" src='../assets/imgs/Bouton-2.png'>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <img (click)=goQuizz4() class="rond" src='../assets/imgs/Bouton-3.png'>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
