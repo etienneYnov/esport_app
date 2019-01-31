@@ -1,3 +1,30 @@
 page-area {
-
+	.bg-style {
+	    background-image: url('../assets/imgs/background.jpg');
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+	}
+	.txt-style{
+		color: yellow;
+		font-size: 2rem;
+		text-align: center;
+	}
+	img{
+	  height: 70vh;
+	  width: 98%;
+	  margin: auto;
+	  display: block;
+	}
+	.btn-left {
+		height: auto;
+		width: 49%;
+		font-size: 5rem;
+	}
+	.btn-right {
+		height: auto;
+		width: 49%;
+		font-size: 5rem;
+	}
 }

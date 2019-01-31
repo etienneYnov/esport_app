@@ -1,3 +1,21 @@
 page-question1 {
-
+	.bg-style {
+	    background-image: url('../assets/imgs/background.jpg');
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+	}
+	img{
+	  height: 25%;
+	  width: auto;
+	  margin: auto;
+	  display: block;
+	}
+	.transp {
+		background-color: transparent;
+		color: yellow;
+		font-size: 2rem;
+		text-align: center;
+	}
 }

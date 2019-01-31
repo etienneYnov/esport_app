@@ -1,3 +1,15 @@
 page-question2 {
-
+	.bg-style {
+	    background-image: url('../assets/imgs/background.jpg');
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+	}
+	img{
+	  height: 70vh;
+	  width: auto;
+	  margin: auto;
+	  display: block;
+	}
 }

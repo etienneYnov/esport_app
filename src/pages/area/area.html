@@ -13,8 +13,10 @@
 </ion-header>
 
 
-<ion-content padding>
-<img src='../assets/imgs/Hltv.JPG'>
-<button ion-button  float-right (click)=goQuizz()>Quizz</button>
-<button ion-button  float-left (click)=goScores()>Scores précédents</button>
+<ion-content padding class="bg-style">
+<div><img src='../assets/imgs/Hltv.JPG'></div>
+<div horizontal-align: center>
+<button ion-button class="btn-right" (click)=goQuizz()>Quizz</button>
+<button ion-button class="btn-left" (click)=goScores()>Scores</button>
+</div>
 </ion-content>
