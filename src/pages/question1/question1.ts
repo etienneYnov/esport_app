@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TiragePage } from '../tirage/tirage';
+import { Question2Page } from '../question2/question2';
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the Question1Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,17 +11,20 @@ import { TiragePage } from '../tirage/tirage';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-question1',
+  templateUrl: 'question1.html',
 })
-export class HomePage {
+export class Question1Page {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  goTirage(){
-  	this.navCtrl.push(TiragePage);
+
+  goQuizz2(){
+  	this.navCtrl.push(Question2Page);
   }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad Question1Page');
   }
 
 }

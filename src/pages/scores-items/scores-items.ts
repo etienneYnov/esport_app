@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TiragePage } from '../tirage/tirage';
 
 /**
- * Generated class for the HomePage page.
+ * Generated class for the ScoresItemsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,17 +10,16 @@ import { TiragePage } from '../tirage/tirage';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-scores-items',
+  templateUrl: 'scores-items.html',
 })
-export class HomePage {
+export class ScoresItemsPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-  goTirage(){
-  	this.navCtrl.push(TiragePage);
-  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad ScoresItemsPage');
   }
 
 }

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
+import { QuizzPage } from '../quizz/quizz';
+import { AreaPage } from '../area/area';
 
 /**
  * Generated class for the TiragePage page.
@@ -17,7 +19,12 @@ export class TiragePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  goQuizz(){
+  	this.navCtrl.push(QuizzPage);
+  }
+  goArea(){
+  	this.navCtrl.push(AreaPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad TiragePage');
   }

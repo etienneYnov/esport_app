@@ -6,31 +6,30 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { LastScoreDetailPage } from '../pages/last-score-detail/last-score-detail';
-import { LastScoresPage } from '../pages/last-scores/last-scores';
-import { QrCodePage } from '../pages/qr-code/qr-code';
-import { QuizzPage } from '../pages/quizz/quizz';
-import { QuizzEndPage } from '../pages/quizz-end/quizz-end';
-import { QuizzQ1Page } from '../pages/quizz-q1/quizz-q1';
-import { QuizzQ2Page } from '../pages/quizz-q2/quizz-q2';
-import { QuizzQ3Page } from '../pages/quizz-q3/quizz-q3';
-import { QuizzQ4Page } from '../pages/quizz-q4/quizz-q4';
+
+import { Question1Page } from '../pages/question1/question1';
+import { Question2Page } from '../pages/question2/question2';
+import { Question3Page } from '../pages/question3/question3';
+import { Question4Page } from '../pages/question4/question4';
 import { AreaPage } from '../pages/area/area';
+import { TiragePage } from '../pages/tirage/tirage';
+import { QuizzPage } from '../pages/quizz/quizz';
+import { ScoresPage } from '../pages/scores/scores';
+import { ScoresItemsPage } from '../pages/scores-items/scores-items';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LastScoreDetailPage,
-    LastScoresPage,
-    QrCodePage,
+    Question1Page,
+    Question2Page,
+    Question3Page,
+    Question4Page,
+    AreaPage,
+    TiragePage,
     QuizzPage,
-    QuizzEndPage,
-    QuizzQ1Page,
-    QuizzQ2Page,
-    QuizzQ3Page,
-    QuizzQ4Page,
-    AreaPage
+    ScoresPage,
+    ScoresItemsPage
   ],
   imports: [
     BrowserModule,
@@ -40,16 +39,15 @@ import { AreaPage } from '../pages/area/area';
   entryComponents: [
     MyApp,
     HomePage,
-    LastScoreDetailPage,
-    LastScoresPage,
-    QrCodePage,
+    Question1Page,
+    Question2Page,
+    Question3Page,
+    Question4Page,
+    AreaPage,
+    TiragePage,
     QuizzPage,
-    QuizzEndPage,
-    QuizzQ1Page,
-    QuizzQ2Page,
-    QuizzQ3Page,
-    QuizzQ4Page,
-    AreaPage
+    ScoresPage,
+    ScoresItemsPage
   ],
   providers: [
     StatusBar,
