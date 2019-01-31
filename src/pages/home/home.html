@@ -14,10 +14,18 @@
 
 
 <ion-content padding class="bg-style">
-
-<p class="txt-style">Scanner le QR code présent sur votre place pour accéder aux informations de l'événement</p>
-<img (click)=goTirage() src='../assets/imgs/icon_camera_blanc.jpg'>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+		<p class="txt-style">Scanner le QR code présent sur votre place pour accéder aux informations de l'événement</p>
+	</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+	    <img (click)=goTirage() src='../assets/imgs/icon_camera_blanc.jpg'>
 <!-- <button ion-button block class="btn-style" (click)=goTirage()>Go</button> -->
-
+	</ion-col>
+  </ion-row>
+</ion-grid>
 
 </ion-content>

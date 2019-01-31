@@ -1,6 +1,17 @@
 // http://ionicframework.com/docs/theming/
+@font-face {
+font-family: 'MinionVariableConcept';
+font-weight: 300;
+font-style: normal;
+src: url('../assets/fonts/MinionVariableConcept/MinionVariableConcept.eot');
+src: url('../assets/fonts/MinionVariableConcept/MinionVariableConcept.eot?#iefix') format('embedded-opentype'),
 
-
+local('MinionVariableConcept'),
+url('../assets/fonts/MinionVariableConcept/MinionVariableConcept.otf') format('otf');
+}
+$font-family-md-base: "MinionVariableConcept";
+$font-family-ios-base: "MinionVariableConcept";
+$font-family-wp-base: "MinionVariableConcept";
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These

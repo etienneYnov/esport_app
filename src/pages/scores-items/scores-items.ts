@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AreaPage } from '../area/area';
 
 /**
  * Generated class for the ScoresItemsPage page.
@@ -17,7 +18,9 @@ export class ScoresItemsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
-
+  goArea(){
+  	this.navCtrl.push(AreaPage);
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad ScoresItemsPage');
   }
