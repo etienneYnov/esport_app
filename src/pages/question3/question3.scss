@@ -1,6 +1,6 @@
 page-question3 {
 	.bg-style {
-	    background-image: url('../assets/imgs/background2.jpg');
+	    background-image: url('../assets/imgs/background3.jpg');
         width: 100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -13,10 +13,11 @@ page-question3 {
 	  display: block;
 	}
 	.rond {
-	  height: auto;
-	  width: auto;
+	  height: 50%;
+	  width: 50%;
 	  margin: auto;
 	  display: line;
+	  padding-top: 70px;
 	}
 	.transp {
 		background-color: transparent;
@@ -35,6 +36,10 @@ page-question3 {
 		font-size: 4rem;
 		text-align: center;
 		font-weight: bold;
-		font-family: MinionVariableConcept;
+		font-family: 'Montserrat', sans-serif;
+	    padding-top: 150px;
+	}
+	.itr {
+		padding-left: 75%;
 	}
 }

@@ -6,15 +6,15 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+<!--   <ion-navbar>
     <ion-title>Scores</ion-title>
-  </ion-navbar>
+  </ion-navbar> -->
 
 </ion-header>
 
 
 <ion-content padding class="bg-style">
-<img src='../assets/imgs/Information-temps-réel.png'>
+<!-- <img src='../assets/imgs/Information-temps-réel.png'>
 
 <button ion-button block class="txt-style" (click)=goScoresItem()>France - Allemagne</button>
 <button ion-button block class="txt-style" (click)=goScoresItem()>France - Ukraine</button>
@@ -26,5 +26,90 @@
 <button ion-button block class="txt-style" (click)=goScoresItem()>Espagne - EU</button>
 <button ion-button block class="txt-style" (click)=goScoresItem()>EU - Allemagne</button>
 <button ion-button block class="txt-style" (click)=goScoresItem()>Espagne - Irlande</button>
-<button ion-button block class="txt-style" (click)=goScoresItem()>Espagne - France</button>
+<button ion-button block class="txt-style" (click)=goScoresItem()>Espagne - France</button> -->
+
+
+<ion-grid>
+  <ion-row class="itr">
+    <ion-col>
+        <img src='../assets/imgs/Information-temps-réel.png'>
+    </ion-col>
+  </ion-row>
+  <ion-row class="plop">
+  	<ion-col>
+      <div>
+        <button ion-button block class="txt-style" (click)=goScoresItem()>France - Allemagne</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="txt-style">
+    <ion-col>
+      <div>
+        <button ion-button block class="txt-style" (click)=goScoresItem()>France - Ukraine</button>
+      </div>
+    </ion-col>
+  </ion-row>
+
+    <ion-row class="txt-style">
+  	<ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>France - Irlande</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="txt-style">
+    <ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>Irlande - Allemagne</button>
+      </div>
+    </ion-col>
+  </ion-row>
+
+    <ion-row class="txt-style">
+  	<ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>Espagne - Allemagne</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="txt-style">
+    <ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>EU - Irlande</button>
+      </div>
+    </ion-col>
+  </ion-row>
+
+    <ion-row class="txt-style">
+  	<ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>Espagne - EU</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="txt-style">
+    <ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>EU - Allemagne</button>
+      </div>
+    </ion-col>
+  </ion-row>
+
+      <ion-row class="txt-style">
+  	<ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>Espagne - Irlande</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="txt-style">
+    <ion-col>
+      <div>
+        <button ion-button block class="txt-style"  (click)=goScoresItem()>Espagne - France</button>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
 </ion-content>

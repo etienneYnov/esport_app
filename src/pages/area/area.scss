@@ -10,28 +10,31 @@ page-area {
 		color: yellow;
 		font-size: 2rem;
 		text-align: center;
-		font-family: MinionVariableConcept;
+		font-family: 'Montserrat', sans-serif;
 	}
 	img{
 	  height: 70vh;
 	  width: 98%;
 	  margin: auto;
 	  display: block;
+	  margin-top: 50px;
 	}
 	.btn-left {
 		height: auto;
 		width: 49%;
-		font-size: 5rem;
-		font-family: MinionVariableConcept;
-		background: #F8ED72;
+		font-size: 6rem;
+		font-family: 'Montserrat', sans-serif;
+		background: #E08238;
 		font-weight: bold;
+		margin-top: 70px;
 	}
 	.btn-right {
 		height: auto;
 		width: 49%;
-		font-size: 5rem;
-		font-family: MinionVariableConcept;
-		background: #F8ED72;
+		font-size: 6rem;
+		font-family: 'Montserrat', sans-serif;		
+		background: #A53685;
 		font-weight: bold;
+		margin-top: 70px;
 	}
 }

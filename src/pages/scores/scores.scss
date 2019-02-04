@@ -7,17 +7,24 @@ page-scores {
         background-position: center center;
 	}
 	.txt-style{
-		color: yellow;
 		font-size: 3rem;
 		text-align: center;
 		background-color: transparent;
-		font-family: MinionVariableConcept;
+		color: white;
+		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
 	}
 	img {
 		margin: auto;
 	    display: block;
 	    width: auto;
 	    height: auto;
+	}
+	.itr {
+		padding-left: 75%;
+	}
+	.plop {
+		padding-top: 50px;
 	}
 	
 }

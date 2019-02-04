@@ -6,9 +6,9 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+<!--   <ion-navbar>
     <ion-title>Area</ion-title>
-  </ion-navbar>
+  </ion-navbar> -->
 
 </ion-header>
 
@@ -16,7 +16,40 @@
 <ion-content padding class="bg-style">
 <div><img src='../assets/imgs/Hltv.JPG'></div>
 <div horizontal-align: center>
-<button ion-button class="btn-right" (click)=goQuizz()>Quizz</button>
-<button ion-button class="btn-left" (click)=goScores()>Scores</button>
+<button ion-button class="btn-right" (click)=goQuizz()>QUIZZ</button>
+<button ion-button class="btn-left" (click)=goScores()>SCORES</button>
 </div>
+
+
+
+
+
+<ion-grid>
+
+  <ion-row>
+    <ion-col>
+        <img src='../assets/imgs/Hltv.JPG'>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row>
+  	<ion-col>
+      <div>
+        <button ion-button class="btn-right" (click)=goQuizz()>QUIZZ</button>
+      </div>
+    </ion-col>
+  	<ion-col>
+      <div>
+        <button ion-button class="btn-left" (click)=goScores()>SCORES</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  
+</ion-grid>
+
+
+
+
+
+.
 </ion-content>

@@ -1,28 +1,39 @@
 page-quizz {
-	.bg-style {
-	    background-image: url('../assets/imgs/background.jpg');
+
+
+	#bg-style {
+	    background-image: url('../assets/imgs/Background-scan.jpg');
+	    background-size: cover;
         width: 100%;
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center center;
+
 	}
-	.txt-style{
+	#txt-style{
 		color: white;
-		font-size: 3.5rem;
+		font-size: 4.5rem;
 		text-align: center;
 		font-weight: bold;
-		font-family: MinionVariableConcept;
+		font-family: 'Montserrat', sans-serif;
+		padding-top: 70px;
 	}
 	img{
-	  height: auto;
-	  width: 100%;
+	  height: 50%vh;
+	  width: 50%;
 	  margin: auto;
 	  display: block;
+	  float: center;
 	}
 	.btn-style {
 		font-size: 2.5rem;
-		font-family: MinionVariableConcept;
+		font-family: 'Montserrat', sans-serif;
 		background: #F8ED72;
 		font-weight: bold;
 	}
+	#plop {
+
+	  padding-top: 5px;
+	}
+
 }
